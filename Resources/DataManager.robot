@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Use this layer to get data from external files
-Library  ./CustomLibs/Csv.py
+Library  ../CustomLibs/Csv.py
 
 
 *** Keywords ***
