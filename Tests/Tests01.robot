@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation     Test with SOAP (WSDL) with two parameters that returns the country passing the IP
-Resource  ../Resources/DataManager.robot
+Resource  ./Resources/DataManager.robot
 Library  SudsLibrary
 Library  XML
 Library  RequestsLibrary
@@ -11,7 +11,7 @@ Library  String
 ${ip} =  195.138.193.207
 ${int_a} =  2
 ${int_b} =  3
-${FilePath} =  D:\\robot-scripts\\SOAP_XML1.0\\CsvData\\data.csv
+${FilePath} =  ./CsvData/data.csv
 
 *** Test Cases ***
 ConsultaIP
