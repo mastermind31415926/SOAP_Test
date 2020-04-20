@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation     Test with SOAP (WSDL) with two parameters that returns the country passing the IP
-Resource  ./Resources/DataManager.robot
+Resource  ../Resources/DataManager.robot
 Library  SudsLibrary
 Library  XML
 Library  RequestsLibrary
